@@ -1,0 +1,3 @@
+To successfully execute the code in the iteratorLevelOrder method, first we create an ArrayList to store the results, then we create a LinkedQueue of nodes. After we add a root node to nodes queue, we loop until queue is empty. 
+
+Using a while loop, we remove the first node from the queue, and then check if the dequeued element is null or not. We check, using an if-else statement, if it is not null. Then, we add the left and right children of node to nodes queue. If null, we add a null to the results list. Finally, we return the iterator of results list. 
